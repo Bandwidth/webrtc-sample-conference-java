@@ -1,0 +1,6 @@
+accountId:
+username:
+password:
+voiceCallbackUrl:
+voicePhoneNumber:
+websocketUrl: "wss://device.webrtc.bandwidth.com"
