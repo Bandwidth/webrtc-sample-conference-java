@@ -47,6 +47,4 @@ public class ConferenceController {
                 config.getWebsocketUrl(),
                 config.getVoicePhoneNumber());
     }
-
-
 }
