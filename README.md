@@ -9,7 +9,7 @@ This sample will need to be publicly accessible to the internet in order for Ban
 Note that this sample currently works best in Chrome.
 
 ### Create a Bandwidth Voice API application
-Follow the steps in [How to Create a Voice API Application](https://support.bandwidth.com/hc/en-us/articles/360035060934-How-to-Create-a-Voice-API-Application-V2-) to create your Voice API appliation.
+Follow the steps in [How to Create a Voice API Application](https://support.bandwidth.com/hc/en-us/articles/360035060934-How-to-Create-a-Voice-API-Application-V2-) to create your Voice API application.
 
 In step 7 and 8, make sure they are set to POST.
 
