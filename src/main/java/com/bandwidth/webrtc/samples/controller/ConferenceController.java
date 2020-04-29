@@ -16,14 +16,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConferenceController {
 
-    private SampleAppConfig config;
+    private final SampleAppConfig config;
     private final ConferenceManager conferenceManager;
 
     public ConferenceController(SampleAppConfig config, ConferenceManager conferenceManager) {
         this.config = config;
         this.conferenceManager = conferenceManager;
     }
-
 
     @PostMapping("/conferences")
     public Conference createConference(@RequestBody(required = false) CreateConferenceRequest request) throws ConferenceAlreadyExistsException {

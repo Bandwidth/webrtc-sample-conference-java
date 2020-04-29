@@ -96,7 +96,7 @@ public class ConferenceManager {
         return conference;
     }
 
-    public CreateParticipantResponse createParticipant(Conference conference, String name) throws ConferenceAlreadyExistsException {
+    public CreateParticipantResponse createParticipant(Conference conference, String name) {
         CreateParticipantResponse response = webRtc.createParticipant(conference.getId());
         Participant participant = new Participant(response.getParticipantId(), conference.getId(), "pending", name);
         conference.getParticipants().put(participant.getId(), participant);
@@ -110,7 +110,6 @@ public class ConferenceManager {
             conference = conferenceMap.get(conferenceId);
         } else {
             conference = createConference(conferenceSlug);
-            conferenceId = conference.getId();
         }
         return createParticipant(conference, name);
     }

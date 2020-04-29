@@ -42,7 +42,7 @@ public class CallbackController {
     }
 
     @PostMapping(path = "/callback/joinConference", produces = MediaType.APPLICATION_XML_VALUE)
-    public String handleJoinConference(@RequestBody GatherCompleteRequest incomingCallRequest) throws ConferenceAlreadyExistsException {
+    public String handleJoinConference(@RequestBody GatherCompleteRequest incomingCallRequest) {
 
         String conferenceId = incomingCallRequest.getDigits();
 
