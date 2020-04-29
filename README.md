@@ -1,4 +1,4 @@
-# Conferencing sample app for Node.js using Bandwidth WebRTC
+# Conferencing sample app for Java using Bandwidth WebRTC
 
 To run this sample, you'll need a Bandwidth phone number, Voice API credentials and WebRTC enabled for your account. Please check with your account manager to ensure you are provisioned for WebRTC.
 
