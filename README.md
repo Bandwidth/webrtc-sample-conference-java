@@ -15,7 +15,7 @@ In step 7 and 8, make sure they are set to POST.
 
 In step 9, provide the publicly accessible URL of your sample app. You need to add `/callback` to the end of this URL in the Voice Application settings.
 
-You do no need to set a callback user id or password. 
+You do not need to set a callback user id or password. 
 
 Create the application and make note of your _Application ID_. You will provide this in the settings below.
 
